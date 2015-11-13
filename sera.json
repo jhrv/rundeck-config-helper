@@ -1,0 +1,12 @@
+[
+    {"hostname": "abc01", "site": "so8"},
+    {"hostname": "abc02", "site": "so8"},
+    {"hostname": "abc03", "site": "so8"},
+    {"hostname": "abc04", "site": "so8"},
+    {"hostname": "abc05", "site": "so8"},
+    {"hostname": "abc06", "site": "so8"},
+    {"hostname": "abc07", "site": "so8"},
+    {"hostname": "abc08", "site": "so8"},
+    {"hostname": "abc09", "site": "so8"},
+    {"hostname": "abc10", "site": "so8"}
+]
