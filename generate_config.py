@@ -7,7 +7,7 @@ def main():
     seraservers = get_json("http://localhost:6969/sera.json")
     for node in rundecknodes:
         for seraserver in seraservers:
-            if node["nodename"] in seraserver.values():
+            if node["nodename"] == seraserver["hostname"]:
                 node["site"] = seraserver["site"]
     write_to_file(rundecknodes, "rundeck.json")
 
